@@ -21,12 +21,20 @@ In the hyprland config, most likely found in ~/.config/hypr/hyprland.conf add th
 3. exec-once = rm "$HOME/.cache/cliphist/db" #delete history on every restart
 
 finally setup a bind
-`bind=SUPER,SPACE,exec,cliphist list | wofi --show dmenu -H 600 -W 900  | cliphist decode | wl-copy
+`bind=SUPER,SPACE,exec,cliphist list | wofi --show dmenu -H 600 -W 900  | cliphist decode | wl-copy`
 
 # Getting screenshots working 
 Install the following libraries `grim slurp` 
 Then use the script found in https://raw.githubusercontent.com/Moerliy/dotfiles/master/.config/hypr/scripts/grimblast otherwise try running grim -g "$(slurp)"
 Due to a bug with nvidia and xdg-desktop screenshots won't fully work
+
+# oh-my-zsh
+install zsh 
+`sudo pacman -S zsh -Y`
+change the default shell to zsh by running `chsh -s %(which zsh)`
+follow the rest of the instructions on the ohmyzsh github:
+https://github.com/ohmyzsh/ohmyzsh
+
 
 # Installing NIXOS 
 
