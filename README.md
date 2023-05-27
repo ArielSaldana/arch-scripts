@@ -40,6 +40,7 @@ https://github.com/ohmyzsh/ohmyzsh
 
 
 
+
 # arch-scripts
 Arch Scripts
 
