@@ -36,8 +36,8 @@ follow the rest of the instructions on the ohmyzsh github:
 https://github.com/ohmyzsh/ohmyzsh
 
 
-# Installing NIXOS 
-
+# Installing NIXOS (Package manager)
+https://wiki.archlinux.org/title/Nix
 
 
 
