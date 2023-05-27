@@ -25,7 +25,7 @@ finally setup a bind
 
 # Getting screenshots working 
 Install the following libraries `grim slurp` 
-Then use the script found in https://raw.githubusercontent.com/Moerliy/dotfiles/master/.config/hypr/scripts/grimblast
+Then use the script found in https://raw.githubusercontent.com/Moerliy/dotfiles/master/.config/hypr/scripts/grimblast otherwise try running grim -g "$(slurp)"
 Due to a bug with nvidia and xdg-desktop screenshots won't fully work
 
 # Installing NIXOS 
