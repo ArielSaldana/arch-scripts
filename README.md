@@ -10,6 +10,26 @@ For this machine we're going to be using the hyprv3 script created by SolDoesTec
 3. `./set-install`
 4. follow the installer instructions
 
+# Getting copy / paste to work 
+
+Install the following packages
+wl-clipboard cliphist and wofi
+
+In the hyprland config, most likely found in ~/.config/hypr/hyprland.conf add the following lines
+1. exec-once = wl-clipboard-history -t
+2. wl-paste cliphist store
+3. exec-once = rm "$HOME/.cache/cliphist/db" #delete history on every restart
+
+finally setup a bind
+`bind=SUPER,SPACE,exec,cliphist list | wofi --show dmenu -H 600 -W 900  | cliphist decode | wl-copy
+
+# Getting screenshots working 
+Install the following libraries `grim slurp` 
+Then use the script found in https://raw.githubusercontent.com/Moerliy/dotfiles/master/.config/hypr/scripts/grimblast
+Due to a bug with nvidia and xdg-desktop screenshots won't fully work
+
+# Installing NIXOS 
+
 
 
 # arch-scripts
