@@ -50,3 +50,7 @@ Arch Scripts
 `sudo yay -Syu`
 include development packages in upgrade
 `yay -Syu --devel --timeupdate`
+
+# Packages I Like
+
+tmux 
