@@ -10,6 +10,13 @@ For this machine we're going to be using the hyprv3 script created by SolDoesTec
 3. `./set-install`
 4. follow the installer instructions
 
+If you're having issues seeing screenshots on an nvidia GPU
+1. sudo pacman -S hyprland-nvidia or yay -S hyprland-nvidia
+
+If you're having issues seeing the cursor
+1. go to /usr/share/wayland-sessions/hyprland.conf and change `Exec=Hyprland` to `Exec=env WLR_NO_HARDWARE_CURSORS=1 Hyprland`
+
+
 # Getting copy / paste to work 
 
 Install the following packages
