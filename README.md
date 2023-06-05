@@ -59,7 +59,13 @@ include development packages in upgrade
 `yay -Syu --devel --timeupdate`
 
 # firewall
-I prefer to use ufw which makes it easy to manage iptables
+Although linux desktops don't really require firewall softwaIre, I still use uwf just to be sure.
+```
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw enable
+```
 
 # Packages I Like
 
