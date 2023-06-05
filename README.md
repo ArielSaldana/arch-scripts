@@ -59,7 +59,7 @@ include development packages in upgrade
 `yay -Syu --devel --timeupdate`
 
 # firewall
-Although linux desktops don't really require firewall softwaIre, I still use uwf just to be sure.
+Although linux desktops don't really require firewall softwa, I still use uwf just to be sure.
 ```
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
