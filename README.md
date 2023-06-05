@@ -58,6 +58,9 @@ Arch Scripts
 include development packages in upgrade
 `yay -Syu --devel --timeupdate`
 
+# firewall
+I prefer to use ufw which makes it easy to manage iptables
+
 # Packages I Like
 
 tmux 
