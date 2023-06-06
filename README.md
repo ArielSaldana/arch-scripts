@@ -48,7 +48,7 @@ https://wiki.archlinux.org/title/Nix
 
 
 
-# arch-scripts
+# Arch-scripts
 Arch Scripts
 
 
@@ -58,7 +58,7 @@ Arch Scripts
 include development packages in upgrade
 `yay -Syu --devel --timeupdate`
 
-# firewall
+# Firewall
 Although linux desktops don't really require firewall software, I still use uwf just to be sure.
 ```
 sudo ufw default deny incoming
