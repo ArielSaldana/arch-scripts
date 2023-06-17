@@ -81,3 +81,8 @@ tmux
 
 # TODO:
 Add .dotfiles
+
+
+# INFO
+since we're using systemd we can use the following command to boot into uefi mode
+systemctl reboot --firmware-setup
