@@ -73,6 +73,8 @@ Install the following packages
 `sudo pacman -S qemu qemu-arch-extra virt-manager libvirt`
 optimally if you're running windows also install `edk2-ovmf swtpm` as these will allow you to emulate tpm 
 
+# Gaming
+Lutris + Wine + Steam
 
 # Packages I Like
 
